@@ -1,21 +1,13 @@
-import { useNavigate, Link } from "react-router-dom";
-import { useState, useEffect, useContext } from "react";
-import { UserContext } from "./contexts";
+import { Link, useNavigate } from "react-router-dom";
 import { fetchBasket, fetchOrders, postToOrders } from "../utilities/api";
+import { useContext, useEffect, useState } from "react";
+
+import { UserContext } from "./contexts";
 
 const Basket = () => {
   const [basketItems, setBasketItems] = useState([]);
   const [orderedItems, setOrderHistory] = useState([]);
   const user = useContext(UserContext);
-  // const [isLoading, setIsLoading] = useState(true);
-  // if (isLoading) {
-  //   return (
-  //     <main className="loading-wrap">
-  //       <span className="loading">Loading...</span>
-  //     </main>
-  //   );
-  // }
-  // setIsLoading(false);
 
   let navigate = useNavigate();
 

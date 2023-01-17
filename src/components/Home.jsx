@@ -1,5 +1,5 @@
-import SearchBar from "./SearchBar";
 import Categories from "./Categories";
+import SearchBar from "./SearchBar";
 
 const Home = () => {
   return (
@@ -14,4 +14,3 @@ const Home = () => {
 
 export default Home;
 
-// GET /api/items

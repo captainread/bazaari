@@ -1,8 +1,9 @@
+import { useContext, useEffect, useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
+
+import { UserContext } from "./contexts";
 import { fetchItemByID } from "../utilities/api";
 import { formatPrice } from "../utilities/utils";
-import { useState, useEffect, useContext } from "react";
-import { useParams, useNavigate } from "react-router-dom";
-import { UserContext } from "./contexts";
 import { postToBasket } from "../utilities/api";
 
 const Item = () => {
@@ -20,8 +21,6 @@ const Item = () => {
       setIsLoading(false);
     });
   }, [fetchedItem, item_id]);
-
-  // console.log(basketState);
 
   const handleClick = (item_id) => {
     if (user) {
@@ -71,6 +70,3 @@ const Item = () => {
 };
 
 export default Item;
-
-// GET /api/items/:item_id - retrieve a specific item's details
-// POST /api/users/:username/basket - add item to the current user's basket

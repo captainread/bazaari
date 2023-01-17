@@ -1,6 +1,7 @@
-import { fetchCategories } from "../utilities/api";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
+
 import ItemGrid from "./ItemGrid";
+import { fetchCategories } from "../utilities/api";
 
 const Categories = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -56,5 +57,3 @@ const Categories = () => {
 };
 
 export default Categories;
-
-// GET /api/categories

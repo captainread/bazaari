@@ -25,7 +25,6 @@ const SearchBar = () => {
         <input
           type="text"
           id="search-text"
-          // onChange={(e) => setNewSearchTerm(e.target.value)}
           placeholder={randomSearchPlaceholder}
         ></input>
         <button>Search</button>

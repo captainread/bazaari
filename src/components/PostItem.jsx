@@ -3,5 +3,3 @@ const PostItem = () => {
 };
 
 export default PostItem;
-
-// POST /api/items - post a new item to the store, via the plus button
