@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bazaari/static/css/main.bd88b46a.css",
+    "main.js": "/bazaari/static/js/main.dd43c9e4.js",
+    "static/media/user.png": "/bazaari/static/media/user.ae3a914be1e9f200b221.png",
+    "static/media/shopping-basket.png": "/bazaari/static/media/shopping-basket.2cbc03080d41089884f0.png",
+    "static/media/bazaari.png": "/bazaari/static/media/bazaari.3e13ea7aac8a92ac3826.png",
+    "index.html": "/bazaari/index.html",
+    "main.bd88b46a.css.map": "/bazaari/static/css/main.bd88b46a.css.map",
+    "main.dd43c9e4.js.map": "/bazaari/static/js/main.dd43c9e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bd88b46a.css",
+    "static/js/main.dd43c9e4.js"
+  ]
+}
